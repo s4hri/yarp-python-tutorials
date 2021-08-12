@@ -25,25 +25,23 @@ available.
 
 To found more info about RPC ports and how they works have a look to [YARP - RPC ports](http://www.yarp.it/git-master/rpc_ports.html)
 
-[rpc]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/rpc.png
+[rpc]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/rpc.png
 
 ## EXAMPLES: TEST YOURSELF
 
 ### RUN THE SCRIPTS
 Be sure to be in the following path: 
-  ```terminal
-  yarp-python-tutorial/apps/rpc
-  ```
-and follow the command below.
 
-Open a terminal and run:
-  ```terminal
-  ~$ bash run.sh
   ```
+  yarp-python-tutorial/workdir/apps/rpc
+  ```
+- **terminal 1**:  
+               
+      $~ python3 client.py
+ 
+- **terminal 2**: 
 
-This command will open 2 terminal (inside the container):
-- **terminal 1**: run client.py
-- **terminal 2**: run server.py
+      $~ python3 server.py
 
 ### WHAT HAPPENS IN THERE
 #### terminal 1
