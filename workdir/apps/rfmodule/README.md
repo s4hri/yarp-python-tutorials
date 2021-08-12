@@ -15,7 +15,7 @@ called "myModule") to be able to
 receive command. In addiction, with a RPC (Client) port it is possible to send command to the RFModule.
 In this case the RPC (Client) port works as an interface to control the RFModule.
 
-![alt text][rpc]
+![alt text][rfm]
 
 #### RFModule
 When a **RFModule** is started, a RPCServer Port (or simple Port) is open ready to receive some command. If the RFModule 
@@ -29,25 +29,22 @@ will wait for the answer from the RFModule.
 
 To found more info about RFModule and how they works have a look to [YARP - RFModule](http://www.yarp.it/git-master/yarp_rfmodule_tutorial.html)
 
-[rpc]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/rfmodule.png
+[rfm]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/rfmodule.png
 
 ## EXAMPLES: TEST YOURSELF
 
 ### RUN THE SCRIPTS
-Be sure to be in the following path: 
-  ```terminal
-  yarp-python-tutorial/apps/rfmodule
-  ```
-and follow the command below.
+Be sure to be in the following path inside the docker: 
+        
+    yarp-python-tutorial/workdir/apps/rfmodule
+    
+- **terminal 1**: 
 
-Open a terminal and run:
-  ```terminal
-  ~$ bash run.sh
-  ```
+      ~$ python3 test_rfmodule.py
+      
+- **terminal 2**: 
 
-This command will open 2 terminal (inside the container):
-- **terminal 1**: run test_rfmodule.py
-- **terminal 2**: run "yarp rpc /myModule" (**RPC Client port**)
+      ~$ yarp rpc /myModule
 
 ### WHAT HAPPENS IN THERE
 #### terminal 1
