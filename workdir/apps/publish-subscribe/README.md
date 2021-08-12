@@ -22,23 +22,27 @@ When a publisher is started, message are sended trhough buffered port, independe
 #### Subscriber
 When a subscriber is started, message are readed from this port. If there is no message available, the subscriber will wait until a message is available.
 
-[port]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/pub-sub.png
+[port]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/pub-sub.png
 
 ## EXAMPLES: TEST YOURSELF
 ### RUN the script
-Be sure to be in the following path: *yarp-python-tutorial/apps/publish-subscribe* and follow the command below
+Be sure to be in the following path inside the docker.
 
-Open a terminal and run:
+    ~$ yarp-python-tutorial/workdir/apps/publish-subscribe
+ 
 
-  ```terminal
-  ~$ bash run.sh
-  ```
+- **terminal 1**: 
+      
+      ~$ python3 publisher.py
+- **terminal 2**: 
+      
+      ~$ python3 subscriber1.py
+- **terminal 3**:
 
-This command will open 4 terminal (inside the container):
-- **terminal 1**: run publisher.py
-- **terminal 2**: run subscriber1.py
-- **terminal 3**: run subscriber2.py
-- **terminal 4**: run subscriber3.py
+      ~$ python3 subscriber2.py
+- **terminal 4**:
+
+      ~$ python3 subscriber3.py
 
 ### WHAT HAPPENS IN THERE
 #### terminal 1
