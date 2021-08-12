@@ -28,7 +28,7 @@ Above are reported the result from this test (each plot is plotting the mean and
 ## EXAMPLES: TEST YOURSELF
 
 ### RUN THE SCRIPTS
-Be sure to be in the following path: 
+Be sure to be in the following path inside the docker: 
 
       ~$ yarp-python-tutorial/apps/benchmarks
       
