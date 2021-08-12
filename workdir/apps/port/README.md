@@ -24,22 +24,22 @@ When a reader port is started, message are received from this port. If there is 
 
 To found more info about ports and how they works have a look to [YARP - ports](https://www.yarp.it/latest/note_ports.html)
 
-[port]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/port.png
+[port]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/port.png
 
 ## EXAMPLES: TEST YOURSELF
 
 ### RUN THE SCRIPTS
-Be sure to be in the following path: *yarp-python-tutorial/apps/port* and follow the command below
+Be sure to be in the following path inside the docker:
 
-Open a terminal and run:
+      ~$ yarp-python-tutorial/workdir/apps/port
 
-  ```terminal
-  ~$ bash run.sh
-  ```
 
-This command will open 2 terminal (inside the container):
-- **terminal 1**: run writer.py
-- **terminal 2**: run reader.py
+- **terminal 1**:
+  
+      ~$ python3 writer.py
+- **terminal 2**:
+
+      ~$ python3 reader.py
 
 ### WHAT HAPPENS IN THERE
 #### terminal 1
