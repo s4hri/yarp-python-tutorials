@@ -13,7 +13,7 @@ Messages are sended through bottles, that in this case are attribute of buffered
 The behavior of how buffered ports works is highlighted when the ports work a different rate. They behave in an asynch mode.
 
 In the following image we can see an usual case of how message are sended/readed between buffered-ports with different rate.
-![alt text][port]
+![alt text][bport]
 
 #### buffered-port write
 When a writer buffered-port is started, message are sended from this port, independently if there is some reader port connected.
@@ -24,21 +24,21 @@ When a reader buffered-port is started, message are received from this port. If 
 
 To found more info about buffered-ports and how they works have a look to [YARP - buffered-ports](https://www.yarp.it/latest/note_ports.html)
 
-[port]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/buffered_port.png
+[bport]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/buffered_port.png
 
 ## EXAMPLES: TEST YOURSELF
 ### RUN the script
-Be sure to be in the following path: *yarp-python-tutorial/apps/buffered-port* and follow the command below
+Be sure to be in the following path inside the docker
 
-Open a terminal and run:
 
-  ```terminal
-  ~$ bash run.sh
-  ```
+      ~$ yarp-python-tutorial/apps/buffered-port
 
-This command will open 2 terminal (inside the container):
-- **terminal 1**: run writer_bp.py
-- **terminal 2**: run reader_bp.py
+- **terminal 1**:
+
+      ~$ python3 writer_bp.py
+- **terminal 2**:
+
+      ~$ python3 reader_bp.py
 
 ### WHAT HAPPENS IN THERE
 #### terminal 1
