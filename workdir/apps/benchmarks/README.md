@@ -21,26 +21,20 @@ Above are reported the result from this test (each plot is plotting the mean and
 ![alt text][rpc]
 ![alt text][rfmodule]
 
-[port]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/test_port_1.png
-[rpc]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/test_rpc.png
-[rfmodule]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/test_rf_module.png
+[port]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/test_port_1.png
+[rpc]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/test_rpc.png
+[rfmodule]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/test_rf_module.png
 
 ## EXAMPLES: TEST YOURSELF
 
 ### RUN THE SCRIPTS
 Be sure to be in the following path: 
-  ```terminal
-  yarp-python-tutorial/apps/benchmarks
-  ```
-and follow the command below.
 
-Open a terminal and run:
-  ```terminal
-  ~$ bash run.sh
-  ```
+      ~$ yarp-python-tutorial/apps/benchmarks
+      
+- **terminal 1**:
+      
+      ~$ python3 test_rfmodule.py
+- **terminal 2**:
 
-This command will open 2 terminal (inside the container):
-- **terminal 1**: run test_rfmodule.py
-- **terminal 2**: run test_client_rpc.py
-
-You can edit the docker-compose.yml file and decide with test you want to run.
+      ~$ python3 test_client_rpc.py
