@@ -30,18 +30,18 @@ To found more info about RPC ports and how they works have a look to [YARP - RPC
 ## EXAMPLES: TEST YOURSELF
 
 ### RUN THE SCRIPTS
-Be sure to be in the following path: 
+Be sure to be in the following path inside the docker: 
 
-  ```
-  yarp-python-tutorial/workdir/apps/rpc
-  ```
+
+    yarp-python-tutorial/workdir/apps/rpc
+  
 - **terminal 1**:  
                
-      $~ python3 client.py
+      ~$ python3 client.py
  
 - **terminal 2**: 
 
-      $~ python3 server.py
+      ~$ python3 server.py
 
 ### WHAT HAPPENS IN THERE
 #### terminal 1
