@@ -68,29 +68,28 @@ When the **/buffer_out** port is started, the **/buffer_out** port is ready to s
 If the buffer is empty, **/buffer_out** port append the write process until the buffer is not empty again.
 
 
-[problem]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/problem.png
-[yarp_problem]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/yarp_problem.png
-[yarp_problem1]:https://github.com/s4hri/yarp-python-tutorials/blob/master/media/yarp-problem1.png
+[problem]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/problem.png
+[yarp_problem]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/yarp_problem.png
+[yarp_problem1]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/yarp-problem1.png
 
 ## EXAMPLES: TEST YOURSELF
 
 ### RUN THE SCRIPTS
-Be sure to be in the following path:
-  ```terminal
-  yarp-python-tutorial/apps/producer-consumer/
-  ```
-and follow the command below.
+Be sure to be in the following path inside the docker:
 
-Open a terminal and run:
+    ~$ yarp-python-tutorial/apps/producer-consumer/
 
-  ```terminal
-  ~$ bash run.sh
-  ```
 
 This command will open 3 terminal (inside the container):
-- **terminal 1**: run producer.py
-- **terminal 2**: run consumer.py
-- **terminal 3**: run buffer.py
+- **terminal 1**:
+
+      ~$ python3 producer.py
+- **terminal 2**:
+
+      ~$ python3 consumer.py
+- **terminal 3**:
+
+      ~$ python3 buffer.py
 
 ### WHAT HAPPENS IN THERE
 #### terminal 1
