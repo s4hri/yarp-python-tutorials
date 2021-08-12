@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+
+  main:
+    image: ${LOCAL_DOCKER_IMAGE}
+
+    environment:
+        - PROJECT_NAME=${PROJECT_NAME}
+
+    command: terminator
