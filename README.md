@@ -34,6 +34,6 @@ between different actors:
 ## TEST
 At the end, some benchmarks have been implemented to test the performance
 
-8. [YARP benchmarks](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/8_benchmarks)
+8. [benchmarks](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/8_benchmarks)
 
 [YARP-PY]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/yarp-python-tutorial.png
