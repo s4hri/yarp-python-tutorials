@@ -6,21 +6,33 @@ This repository contains open source software to start programming in YARP using
 [YARP]:http://www.yarp.it is an open source library designed for implementing robotics applications.
 
 
-In the following you can find some tutorials for Python developers to start using YARP.
+## INTRO
+In the following you can find some tutorials for Python developers to start using YARP with:
 
-1. [YARP ports](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/1_port)
+1. [Ports](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/1_port)
 
-2. [YARP buffered-port](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/2_buffered-port)
+2. [Buffered Port](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/2_buffered-port)
 
-3. [YARP rpc](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/3_rpc)
+3. [Rpc](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/3_rpc)
 
-4. [YARP callback](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/4_callback)
+4. [Callback](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/4_callback)
 
-5. [YARP rfmodule](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/5_rfmodule)
+5. [RFModule](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/5_rfmodule)
 
-6. [YARP producer-consumer](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/6_producer-consumer)
 
-7. [YARP publisher-subscriber](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/7_publisher-subscriber)
+
+## EXPLORE
+
+In the following are implemented some example by using YARP for generical purpose, where communication are required
+between different actors:
+
+6. [producer-consumer](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/6_producer-consumer)
+
+7. [publisher-subscriber](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/7_publisher-subscriber)
+
+
+## TEST
+At the end, some benchmarks have been implemented to test the performance
 
 8. [YARP benchmarks](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/8_benchmarks)
 
