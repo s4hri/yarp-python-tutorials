@@ -1,6 +1,10 @@
+"""
 BSD 2-Clause License
 
-Copyright (c) 2021, Social Cognition in Human-Robot Interaction
+Copyright (c) 2021, Nicola Severino Russi (nicola.russi@iit.it),
+                    Davide De Tommaso (davide.detommaso@iit.it)
+                    Social Cognition in Human-Robot Interaction
+                    Istituto Italiano di Tecnologia, Genova
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -23,3 +27,31 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+"""
+
+import yarp
+
+# create the network
+yarp.Network.init()
+
+# define ports
+inport = yarp.BufferedPortBottle()
+
+# activate ports
+inport.open("/reader")
+
+# create connection betweeen ports inside the network:
+# note: connect(writer, reader)  ok
+#       connect(reader, writer)  not ok
+yarp.Network.connect("/writer", inport.getName())
+
+# read the messge
+bottle = inport.read().toString()
+print("Received ", bottle)
+yarp.delay(5)
+
+# deactivate ports
+inport.close()
+
+# close the network
+yarp.Network.fini()

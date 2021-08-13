@@ -7,5 +7,6 @@ services:
 
     environment:
         - PROJECT_NAME=${PROJECT_NAME}
+        - PYTHONPATH=/home/docky/workdir/tutorials
 
-    command: terminator
+    command: sh -c "yarpserver --write & yarprun --server /root --log & terminator & yarpmanager --apppath /home/docky/workdir/tutorials"
