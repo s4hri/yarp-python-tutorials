@@ -30,7 +30,17 @@ Above are reported the result from this test (each plot is plotting the mean and
 ### RUN THE SCRIPTS
 Be sure to be in the following path inside the docker: 
 
-      ~$ yarp-python-tutorial/apps/benchmarks
+      ~$ yarp-python-tutorial/tutorials/benchmarks
+
+In each sub-folder you will find a run.sh.
+
+
+Open a terminal and run:
+  ```terminal
+  ~$ bash run.sh
+  ```
+
+This command will open 2 terminal 
       
 - **terminal 1**:
       

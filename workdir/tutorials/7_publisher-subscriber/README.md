@@ -28,8 +28,16 @@ When a subscriber is started, message are readed from this port. If there is no 
 ### RUN the script
 Be sure to be in the following path inside the docker.
 
-    ~$ yarp-python-tutorial/workdir/apps/publish-subscribe
+    ~$ yarp-python-tutorial/workdir/tutorials/publish-subscribe
  
+
+ Open a terminal and run:
+  ```terminal
+  ~$ bash run.sh
+  ```
+
+This command will open 4 terminal 
+
 
 - **terminal 1**: 
       

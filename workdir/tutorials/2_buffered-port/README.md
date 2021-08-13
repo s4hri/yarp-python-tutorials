@@ -31,7 +31,14 @@ To found more info about buffered-ports and how they works have a look to [YARP 
 Be sure to be in the following path inside the docker
 
 
-      ~$ yarp-python-tutorial/apps/buffered-port
+      ~$ yarp-python-tutorial/tutorials/buffered-port
+
+Open a terminal and run:
+  ```terminal
+  ~$ bash run.sh
+  ```
+
+This command will open 2 terminal 
 
 - **terminal 1**:
 

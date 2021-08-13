@@ -31,8 +31,15 @@ To found more info about ports and how they works have a look to [YARP - ports](
 ### RUN THE SCRIPTS
 Be sure to be in the following path inside the docker:
 
-      ~$ yarp-python-tutorial/workdir/apps/port
+      ~$ yarp-python-tutorial/workdir/tutorials/port
 
+
+Open a terminal and run:
+  ```terminal
+  ~$ bash run.sh
+  ```
+
+This command will open 2 terminal 
 
 - **terminal 1**:
   

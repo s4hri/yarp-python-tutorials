@@ -77,7 +77,13 @@ If the buffer is empty, **/buffer_out** port append the write process until the 
 ### RUN THE SCRIPTS
 Be sure to be in the following path inside the docker:
 
-    ~$ yarp-python-tutorial/apps/producer-consumer/
+    ~$ yarp-python-tutorial/tutorials/producer-consumer/
+
+
+Open a terminal and run:
+  ```terminal
+  ~$ bash run.sh
+  ```
 
 
 This command will open 3 terminal (inside the container):

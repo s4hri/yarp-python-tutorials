@@ -36,8 +36,16 @@ To found more info about RFModule and how they works have a look to [YARP - RFMo
 ### RUN THE SCRIPTS
 Be sure to be in the following path inside the docker: 
         
-    yarp-python-tutorial/workdir/apps/rfmodule
-    
+    yarp-python-tutorial/workdir/tutorials/rfmodule
+
+
+Open a terminal and run:
+  ```terminal
+  ~$ bash run.sh
+  ```
+
+This command will open 2 terminal 
+
 - **terminal 1**: 
 
       ~$ python3 test_rfmodule.py
