@@ -43,8 +43,8 @@ At the end, some benchmarks have been implemented to test the performance
 
 - Requirements
 
-- make
-- Docker CE
+  - make
+  - Docker CE
 
 - How to run the tutorials
 The tutorials run inside a Docker container. To build and run the environment you can simply do:
