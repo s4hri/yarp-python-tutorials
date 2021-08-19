@@ -1,39 +1,59 @@
-# yarp-python-tutorials
+# YARP Tutorials (Python)
 ![alt text][YARP-PY]
+
+[YARP-PY]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/yarp-python-tutorial.png
 
 This repository contains open source software to start programming in YARP using Python.
 
-[YARP]:http://www.yarp.it is an open source library designed for implementing robotics applications.
+[YARP](http://www.yarp.it) is an open source library designed for implementing robotics applications.
 
 
-## INTRO
+# 1. Basic Tutorials
 In the following you can find some tutorials for Python developers to start using YARP with:
 
-1. [Ports](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/1_port)
+1.1 [Ports](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/ports)
 
-2. [Buffered Port](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/2_buffered-port)
+1.2 [Buffered Port](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/buffered-ports)
 
-3. [Rpc](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/3_rpc)
+1.3 [Rpc](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/rpc)
 
-4. [Callback](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/4_callback)
-
-5. [RFModule](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/5_rfmodule)
+1.4 [Callback](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/callbacks)
 
 
 
-## EXPLORE
+## 2. Common Patterns
 
 In the following are implemented some example by using YARP for generical purpose, where communication are required
 between different actors:
 
-6. [producer-consumer](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/6_producer-consumer)
+2.1 [RFModule](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/rfmodule)
 
-7. [publisher-subscriber](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/7_publisher-subscriber)
+2.2 [Producer-Consumer](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/producer-consumer)
+
+2.3 [Publisher-Subscriber](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/publisher-subscriber)
 
 
-## TEST
+## 3. Performance
 At the end, some benchmarks have been implemented to test the performance
 
-8. [benchmarks](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/8_benchmarks)
+3.1 [Benchmarks](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/benchmarks)
 
-[YARP-PY]:https://github.com/s4hri/yarp-python-tutorials/blob/master/workdir/media/yarp-python-tutorial.png
+
+## 4. How to run the tutorials (GNU/Linux)
+
+4.1 Requirements
+
+    - make
+    - Docker CE
+
+4.2 How to run the tutorials
+The tutorials run inside a Docker container. To build and run the environment you can simply do:
+
+    cd yarp-python-tutorials
+    ./run.sh
+
+A terminator process will be executed inside the Docker container just built. You can then, execute the tutorials browsing them in the file system.
+For example to run the first tutorial you can type:
+
+   cd ports
+   bash run.sh
