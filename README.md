@@ -21,32 +21,32 @@ In the following you can find some tutorials for Python developers to start usin
 
 
 
-## 2. Common Patterns
+# 2. Common Patterns
 
 In the following are implemented some example by using YARP for generical purpose, where communication are required
 between different actors:
 
-2.1 [RFModule](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/rfmodule)
+##2.1 [RFModule](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/rfmodule)
 
-2.2 [Producer-Consumer](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/producer-consumer)
+##2.2 [Producer-Consumer](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/producer-consumer)
 
-2.3 [Publisher-Subscriber](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/publisher-subscriber)
+##2.3 [Publisher-Subscriber](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/publisher-subscriber)
 
 
-## 3. Performance
+# 3. Performance
 At the end, some benchmarks have been implemented to test the performance
 
-3.1 [Benchmarks](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/benchmarks)
+##3.1 [Benchmarks](https://github.com/s4hri/yarp-python-tutorials/tree/master/workdir/tutorials/benchmarks)
 
 
-## 4. How to run the tutorials (GNU/Linux)
+# 4. How to run the tutorials (GNU/Linux)
 
-4.1 Requirements
+##4.1 Requirements
 
-    - make
-    - Docker CE
+- make
+- Docker CE
 
-4.2 How to run the tutorials
+##4.2 How to run the tutorials
 The tutorials run inside a Docker container. To build and run the environment you can simply do:
 
     cd yarp-python-tutorials
@@ -55,5 +55,5 @@ The tutorials run inside a Docker container. To build and run the environment yo
 A terminator process will be executed inside the Docker container just built. You can then, execute the tutorials browsing them in the file system.
 For example to run the first tutorial you can type:
 
-   cd ports
-   bash run.sh
+    cd ports
+    bash run.sh
