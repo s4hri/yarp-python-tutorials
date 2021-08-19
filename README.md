@@ -47,13 +47,13 @@ At the end, some benchmarks have been implemented to test the performance
   - Docker CE
 
 - How to run the tutorials
-The tutorials run inside a Docker container. To build and run the environment you can simply do:
+  The tutorials run inside a Docker container. To build and run the environment you can simply do:
 
-    cd yarp-python-tutorials
-    ./run.sh
+      cd yarp-python-tutorials
+      ./run.sh
 
-A terminator process will be executed inside the Docker container just built. You can then, execute the tutorials browsing them in the file system.
-For example to run the first tutorial you can type:
+   A terminator process will be executed inside the Docker container just built. You can then, execute the tutorials browsing them in the file system.
+   For example to run the first tutorial you can type:
 
-    cd ports
-    bash run.sh
+      cd ports
+      bash run.sh
