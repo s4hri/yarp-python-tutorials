@@ -14,6 +14,11 @@ yarp.Network.init()
 
 # define ports
 outport = yarp.BufferedPortBottle()
+# alternative buffered port classes depending on the underlying data type:
+# - yarp.BufferedPortProperty
+# - yarp.BufferedPortImage(Rgb|Rgba|Mono|Mono16|Int|Float|RgbFloat)
+# - yarp.BufferedPortVector (yarp.DVector)
+# - yarp.BufferedPortSound
 
 # activate ports
 outport.open("/writer")
